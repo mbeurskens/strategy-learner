@@ -1,0 +1,35 @@
+# Ignore all file types except the ones listed
+*.a
+*.o
+*.so
+*.pt
+*.mb
+*.tar.gz
+*.m~
+*mu_turtle*.m
+*.pickle
+*.json
+*.png
+*.zip*
+
+# Ignore directories
+venv
+build
+.settings
+.project
+.cproject
+.idea
+cmake-build-debug
+training/spinningup
+training/protobuf/__pycache__
+scripts/tmp
+data
+evaluation/__pycache__
+training/__pycache__
+training/vpg/__pycache__
+training/utils/__pycache__
+training/default
+experiments/tmp
+experiments/results
+inference/settings
+inference/libs/libtorch
